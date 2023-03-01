@@ -1,0 +1,35 @@
+{
+  "name": "phonebook-fso",
+  "version": "1.0.0",
+  "description": "Full Stack Open - Part 3 Exercises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmgcito/phonebook-fso.git"
+  },
+  "keywords": [
+    "fso",
+    "phonebook",
+    "backend",
+    "express",
+    "node"
+  ],
+  "author": "Joshua M Guillen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmgcito/phonebook-fso/issues"
+  },
+  "homepage": "https://github.com/jmgcito/phonebook-fso#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
